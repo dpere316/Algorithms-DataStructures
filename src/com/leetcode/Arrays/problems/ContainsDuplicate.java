@@ -1,4 +1,4 @@
-package com.leetcode.Arrays;
+package com.leetcode.Arrays.problems;
 
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
