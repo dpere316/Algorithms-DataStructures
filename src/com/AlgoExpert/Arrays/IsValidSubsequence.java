@@ -1,4 +1,4 @@
-package com.leetcode.Arrays.problems;
+package com.AlgoExpert.Arrays;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,19 +6,18 @@ import java.util.List;
 public class IsValidSubsequence {
     public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {
         // Write your code here.
-        int count = 0;
-        for (int i = 0; i < array.size();i++)
-        {
-            if(count == sequence.size())
+        // O(n) time || O(n) space;
+        int index = 0;
+        for(int num : array) {
+            if(index == sequence.size())
             {
                 break;
             }
-            if(array.get(i) == sequence.get(i)){
-                count++;
+            if(sequence.get(index).equals(num)){
+                index++;
             }
         }
-        return count == sequence.size();
-
+                return index == sequence.size();
     }
 
     public static void main(String[] args) {
