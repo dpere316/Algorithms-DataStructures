@@ -1,9 +1,7 @@
-package algoExpert.Arrays;
+package com.leetcode.Arrays;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 public class IsValidSubsequence {
     public static boolean isValidSubsequence(List<Integer> array, List<Integer> sequence) {

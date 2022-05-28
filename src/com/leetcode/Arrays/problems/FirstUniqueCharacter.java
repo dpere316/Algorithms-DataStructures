@@ -1,4 +1,4 @@
-package algoExpert.Arrays;
+package com.leetcode.Arrays;
 
 import java.util.HashMap;
 import java.util.Map;

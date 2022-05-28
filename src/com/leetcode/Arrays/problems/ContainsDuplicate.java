@@ -1,8 +1,4 @@
-package algoExpert.Arrays;
-
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+package com.leetcode.Arrays;
 
 public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
